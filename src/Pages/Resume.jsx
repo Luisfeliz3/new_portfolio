@@ -4,7 +4,7 @@ import resume from '../image/resume.pdf'
 const Resume = () => {
   return (
     <div>
-         <iframe src={resume} width="100%" height="500px" title = 'resume'>
+         <iframe src={resume} width="100%" height="1000px" title = 'resume'>
         </iframe>
     </div>
   )

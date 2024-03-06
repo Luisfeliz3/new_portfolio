@@ -1,4 +1,9 @@
-import React from 'react'
+import amex_icon from "../image/amex.png";
+import cigniti_icon from "../image/cigniti.png";
+import columbia_icon from "../image/cumbia.jpeg";
+import devry_icon from "../image/devry_uni.jpeg";
+import comp_icon from "../image/comp_geeks.png";
+import pc_icon from "../image/pc_rep.png";
 
 const WorkCard = () => {
   return (
@@ -17,7 +22,7 @@ const WorkCard = () => {
          </h2>
          <ol className="mt-6 space-y-4">
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/amazonlogo.5b4b4f85.png" width="400" height="400" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={amex_icon} width="400" height="400" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900">Amex</dd>
@@ -28,7 +33,7 @@ const WorkCard = () => {
                </dl>
             </li>
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/hc-logo.0e34d1c5.png" width="500" height="500" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={cigniti_icon} width="500" height="500" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900 ">Cigniti</dd>
@@ -39,7 +44,7 @@ const WorkCard = () => {
                </dl>
             </li>
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/txstStar.dd442678.png" width="508" height="503" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={columbia_icon} width="508" height="503" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900">Columbia University</dd>
@@ -50,7 +55,7 @@ const WorkCard = () => {
                </dl>
             </li>
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/gwcLogo1.a0abae35.png" width="600" height="601" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={devry_icon} width="600" height="601" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900 ">Devry University</dd>
@@ -61,7 +66,7 @@ const WorkCard = () => {
                </dl>
             </li>
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/fypm1.b3aa1b8d.svg" width="590" height="590" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={pc_icon} width="590" height="590" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900">Luis's Computer Services</dd>
@@ -72,7 +77,7 @@ const WorkCard = () => {
                </dl>
             </li>
             <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/dell.fe533255.svg" width="464" height="464" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={comp_icon} width="464" height="464" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900">Computer Geeks</dd>
@@ -82,17 +87,7 @@ const WorkCard = () => {
                   <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="June 2007 until Feb 2010"><time datetime="June 2007">June 2008</time> <span aria-hidden="true">—</span> <time datetime="Aug 2022">Feb 2010</time></dd>
                </dl>
             </li>
-            {/* <li className="flex gap-4">
-               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src="/_next/static/media/dell.fe533255.svg" width="464" height="464" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
-               <dl className="flex flex-auto flex-wrap gap-x-2">
-                  <dt className="sr-only">Company</dt>
-                  <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">Dell Technologies</dd>
-                  <dt className="sr-only">Role</dt>
-                  <dd className="text-xs text-zinc-500 dark:text-zinc-400">Software Engineer Intern</dd>
-                  <dt className="sr-only">Date</dt>
-                  <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="May 20 until Aug 2021"><time datetime="May 2021">May 2021</time> <span aria-hidden="true">—</span> <time datetime="Aug 2021">Aug 2021</time></dd>
-               </dl>
-            </li> */}
+          
          </ol>
       </div>
    </div>
