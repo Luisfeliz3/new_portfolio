@@ -8,7 +8,7 @@ const Nav = () => {
     <div className="nav-container">
     <nav>
     <div className="portfolio-image-container">
-      <a aria-label="Home" href="/">
+      <a className="navy-link"aria-label="Home" href="/">
         <img
           className="portfolio_image"
           alt="portfolio_image"
@@ -17,13 +17,13 @@ const Nav = () => {
       </a>
     </div>
     <div className="nav-links">
-      <a aria-label="About" href="/about">
+      <a className="navy-link"aria-label="About" href="/about">
         <span>About</span>
       </a>
-      <a aria-label="Projects" href="/projects">
+      <a className="navy-link"aria-label="Projects" href="/projects">
         <span>Projects</span>
       </a>
-      <a aria-label="Resume" href="/resume">
+      <a className="navy-link"aria-label="Resume" href="/resume">
         <span >Resume</span>
       </a>
     </div>
