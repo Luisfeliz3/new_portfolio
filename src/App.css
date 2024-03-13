@@ -5,6 +5,53 @@ body{
 }
 
 
+@media all and (max-width: 480px){
+
+    body{
+        background-color: rgb(237, 237, 237);
+        
+    
+    }
+
+    div.container {
+        background-color : rgba(255, 255, 255, 0.633);
+        --tw-bg-opacity: 1;
+        min-width: 1000px;
+        max-width:1225px;
+        margin: auto;
+        height: 1890px;
+        flex : auto;
+        
+        }
+    div.work-card{
+        width:400px;
+        margin: 14px
+        
+    }
+
+    div.detail{
+        position: relative;
+    width: 33.333333%;
+    margin: 0px 30px 30px;
+    top: 35px; 
+    }
+
+    h1.details-title, .details-paragraph {
+        text-align: center;
+    }
+
+
+    div.home-card-group{
+     right: 10px;
+     bottom:20px;
+     width:  430px;
+    }
+  }
+
+
+
+
+
 .container {
 background-color : rgba(255, 255, 255, 0.633);
 --tw-bg-opacity: 1;
@@ -54,4 +101,19 @@ color: rgb(82 82 91);
 
 .space-y-10{
     padding-top: 459px;
+}
+
+.sm-icons{
+    display: flex;   
+}
+
+.gh-icon{
+    color: rgb(82 82 91);
+    margin: 5px;
+   
+}
+
+.li-icon{
+    color: rgb(82 82 91);
+    margin: 5px;
 }

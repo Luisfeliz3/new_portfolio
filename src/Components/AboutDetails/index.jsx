@@ -7,9 +7,10 @@ const AboutDetails = () => {
    <div className="about-container">
        <div className="about-detail">
       <h1>
-        I'm Luis, with a B.A in computer & technology. I am passionate about
-        frontend engineering, empowering the community, and creating art through
-        music and software.
+       I'm Luis, holding a Bachelor's in Computer and Technology. 
+       My expertise lies in frontend engineering, where I'm dedicated to 
+       empowering communities and expressing creativity through music 
+       and software development.
       </h1>
       <p>
         In most of these Projects I am Incorparating the use of M.E.R.N with the

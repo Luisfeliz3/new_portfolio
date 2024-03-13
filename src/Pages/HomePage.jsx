@@ -6,7 +6,7 @@ import HomeCardGroup from '../Components/HomeCardGroup';
 
 const HomePage = () => {
   return (
-    <div className="container">
+    <div className="home-page-container">
         <Details/>
         <HomeCardGroup/>  
         <WorkCard/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-
+import { FaGithub } from "react-icons/fa";
 import image_2 from "../../image/codeImg1.jpg";
 import image_3 from "../../image/codeImg2.png"
 import image_4 from "../../image/codeImg3.jpeg";

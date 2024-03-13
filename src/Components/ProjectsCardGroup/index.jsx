@@ -19,16 +19,16 @@ const ProjectsCardGroup = () => {
             />
           </div>
           <h2>
-            Prepair :An Appplication used to build DIY home furniture. The
-            Applications make building it at home easy! A click and order concept.
+          Prepair: An application used to build DIY home furniture. 
+          The application makes building it at home easy! A click-and-order concept.
           </h2>
           <p className="project-card-paragraph">
-            If you do find this paragraph tool useful, please do us a favor and
-            let us know how you're using it. It's greatly beneficial for us to
-            know the different ways this tool is being used so we can improve it
-            with updates. This is especially true since there are times when the
-            generators we create get used in completely unanticipated ways from
-            when we initially created them.
+          Moving to a new place? Need custom furniture? 
+          The Prepair app helps you choose materials, 
+          measurements, and build custom pieces like tables, 
+          chairs, & more, ensuring you avoid mistakes.
+          No more hassles hunting for materials & puzzling intructions to build your unit.
+          Choose what to build, choose materials,  insert measurements, click & buy !
           </p>
           <a className="app-links" href="https://github.com/Luisfeliz3/prepair">
             <svg
@@ -58,16 +58,17 @@ const ProjectsCardGroup = () => {
             />
           </div>
           <h2>
-            Payment Center: An Appplication that mimics the AMEX application I
-            helped develop while working on the MYCA Team.
+          Payment Center: An application that mimics the AMEX application 
+          I helped develop while working on the MYCA Team.
           </h2>
           <p className="project-card-paragraph">
-            If you do find this paragraph tool useful, please do us a favor and
-            let us know how you're using it. It's greatly beneficial for us to
-            know the different ways this tool is being used so we can improve it
-            with updates. This is especially true since there are times when the
-            generators we create get used in completely unanticipated ways from
-            when we initially created them.{" "}
+          This project replicates my previous work, 
+          allowing me to apply my experience and skills in web development using tools like React, 
+          MongoDB, Node, and ExpressJS, along with coding patterns like MVC, 
+          and testing tools such as Selenium, Jest, Cucumber, 
+          and TestNG with both Java and JavaScript. 
+          All of which were used to deploy code to millions of users using Agile methodologies.
+       
           </p>
           <a className="app-links" href="https://github.com/Luisfeliz3/paymentcenter">
             <svg
@@ -95,17 +96,17 @@ const ProjectsCardGroup = () => {
             />
           </div>
           <h2>
-            Amazon Clone : Who Doesn't enjoy PRIME! I cloned it
-            to show use of the REDUX tool in action with
-            the CART functinality.
+          Amazon Clone: Who doesn't enjoy Prime! 
+          I cloned it to demonstrate the use of the 
+          Redux tool in action with the cart functionality.
           </h2>
           <p className="project-card-paragraph">
-            If you do find this paragraph tool useful, please do us a favor and
-            let us know how you're using it. It's greatly beneficial for us to
-            know the different ways this tool is being used so we can improve it
-            with updates. This is especially true since there are times when the
-            generators we create get used in completely unanticipated ways from
-            when we initially created them.{" "}
+          We all have shopped at Amazon sometime in our lives. 
+          My wishlist is full of stuff that I don’t really need. 
+          I might just go on a clicking frenzy one day and buy everything on that list. 
+          I decided to make a clone app that shows both the design aspect of software 
+          development and the technical part of programming. 
+          Using Tailwind, React, React-Router, and Redux to demonstrate the add-to-cart functionality.
           </p>
           <a className="app-links" href="https://github.com/Luisfeliz3/amazon-clone">
           <svg

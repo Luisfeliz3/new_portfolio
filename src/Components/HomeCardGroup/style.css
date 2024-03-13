@@ -1,10 +1,18 @@
 
 
+
+
+
+
+
+
 .home-card-group{
-    position: absolute;
+position: absolute;
     /* for mobile do not use absolute */
  display: flex;
  right: 170px;
+ margin-top: 42px;
+ margin:-9px
  
 }
 .home-card-1{
