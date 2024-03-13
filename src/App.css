@@ -16,53 +16,13 @@ flex : auto;
 
 }
 
-nav{
-    width: 100%;
-   
-    display: -webkit-inline-box;
-
-}
-
-.nav-container{
-    /* display: flex; */
-}
-
-.nav-links{
-    background-color : rgba(255, 255, 255, 0.633);
-    border :azure;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration:solid;
-    display: inline-block;
-    margin: 30px 113px;
-    cursor: pointer;
-    border-radius: 30px;
-    box-shadow: 0 8px 6px -6px gray;
-   
-    
-}
-
-a{
-   cursor: pointer;
-    margin: 8px;
-  
-}
-
-.portfolio-image-container{
-    width : 30%
-}
-
-.portfolio_image{
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    margin: 10px 50px 30px 110px;
-}
 
 .detail{
+    position: relative;
     width: 53.333333%;
-    margin: 10px 110px 30px;
+    margin: 0px 110px 30px;
+    top: 35px;
+     
 
 }
 

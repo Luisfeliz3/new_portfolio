@@ -18,7 +18,7 @@ const ProjectsCardGroup = () => {
           </div>
           <h2>
             Prepair :An Appplication used to build DIY home furniture. The
-            Applications make building easy{" "}
+            Applications make building it at home easy! A click and order concept.
           </h2>
           <p className="project-card-paragraph">
             If you do find this paragraph tool useful, please do us a favor and
@@ -26,9 +26,9 @@ const ProjectsCardGroup = () => {
             know the different ways this tool is being used so we can improve it
             with updates. This is especially true since there are times when the
             generators we create get used in completely unanticipated ways from
-            when we initially created them.{" "}
+            when we initially created them.
           </p>
-          <a className="app-links">
+          <a className="app-links" href="https://github.com/Luisfeliz3/prepair">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -40,6 +40,7 @@ const ProjectsCardGroup = () => {
               ></path>
             </svg>
             <span class="ml-2">GitHub</span>
+            
           </a>
         </li>
         <li className="project-card">
@@ -52,7 +53,7 @@ const ProjectsCardGroup = () => {
             />
           </div>
           <h2>
-            Payment Center :An Appplication that mimics the AMEX application I
+            Payment Center: An Appplication that mimics the AMEX application I
             helped develop while working on the MYCA Team.
           </h2>
           <p className="project-card-paragraph">
@@ -63,7 +64,7 @@ const ProjectsCardGroup = () => {
             generators we create get used in completely unanticipated ways from
             when we initially created them.{" "}
           </p>
-          <a className="app-links">
+          <a className="app-links" href="https://github.com/Luisfeliz3/paymentcenter">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -87,8 +88,8 @@ const ProjectsCardGroup = () => {
             />
           </div>
           <h2>
-            Amazon Clone : We all have shopped and enjoy PRIME. I cloned this
-            web based application to show use of the REDUX tool in action with
+            Amazon Clone : Who Doesn't enjoy PRIME! I cloned it
+            to show use of the REDUX tool in action with
             the CART functinality.
           </h2>
           <p className="project-card-paragraph">
@@ -99,8 +100,8 @@ const ProjectsCardGroup = () => {
             generators we create get used in completely unanticipated ways from
             when we initially created them.{" "}
           </p>
-          <a className="app-links">
-            <svg
+          <a className="app-links" href="https://github.com/Luisfeliz3/amazon-clone">
+          <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
               class="h-6 w-6 flex-none"
@@ -113,7 +114,7 @@ const ProjectsCardGroup = () => {
             <span class="ml-2">GitHub</span>
           </a>
         </li>
-        <li className="project-card">
+        {/* <li className="project-card">
           <div className="logo relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <img
               alt="prepair_icon"
@@ -147,7 +148,7 @@ const ProjectsCardGroup = () => {
             </svg>
             <span class="ml-2">GitHub</span>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

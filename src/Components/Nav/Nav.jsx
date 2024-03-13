@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import "./style.css"
 
-import image_1 from "../image/IMG_0250.jpg";
+import image_1 from "../../image/IMG_0250.jpg";
 
 const Nav = () => {
   return (

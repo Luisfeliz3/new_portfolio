@@ -1,6 +1,6 @@
 import "./style.css";
 
-import me_icon from '../../image/me_pr.jpg'
+import me_icon from '../../image/me_suit.jpg'
 
 const AboutDetails = () => {
   return (

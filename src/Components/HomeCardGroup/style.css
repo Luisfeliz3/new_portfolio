@@ -1,3 +1,39 @@
-.image-3{
-   
+
+
+.home-card-group{
+    position: absolute;
+    /* for mobile do not use absolute */
+ display: flex;
+ right: 170px;
+ 
+}
+.home-card-1{
+    padding : 12px;
+    transform :rotate(4deg);
+ 
+}
+.home-card-2{
+    padding : 12px;
+    transform :rotate(-4deg);
+}
+.home-card-3{
+    padding : 12px;
+    transform :rotate(4deg);
+}
+.home-card-4{
+    padding : 12px;
+    transform :rotate(-4deg);
+}
+.home-card-5{
+    padding : 12px;
+    transform :rotate(4deg);
+}
+
+.image{
+    position:relative;
+   object-fit:cover;
+   width :18rem;
+   height :18rem;
+   border-radius: 2.00rem;
+   border: 5px solid #555;
 }

@@ -4,6 +4,7 @@
     height:30rem; /* 160px */
     margin: 60px 0px 0px 60px;
     border-radius:20px;
+    border: 5px solid #555;
 }
 
 .project-card-group{
@@ -15,7 +16,8 @@
 ul{
     display: flex;
     flex-wrap: wrap;
-    margin-top: -48px;
+    margin-top: -8px;
+    
 }
 
 
