@@ -8,7 +8,10 @@ body{
 
 @media all and (max-width: 480px){
 
- 
+    div.space-y-10{
+        margin-top: -7rem;
+
+    }
   
     div.container {
         background-color : rgba(255, 255, 255, 0.633);
@@ -19,11 +22,10 @@ body{
         }
 
         
-    /* div.work-card{s
-        width:400px;
-        margin: 14px
-        
-    } */
+    div.work-card{
+      
+        top:90px
+    }
 
     div.detail{
        
