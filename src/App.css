@@ -8,10 +8,7 @@ body{
 
 @media all and (max-width: 480px){
 
-    nav{
-        height: 200px;
-        width: 200px;
-    }
+ 
   
     div.container {
         background-color : rgba(255, 255, 255, 0.633);
@@ -19,35 +16,35 @@ body{
         min-width: 100%;
         max-width: 100%;
         height: 1890px;
-     
-        
         }
-    div.work-card{
-        width:350px;
-        margin: 40px;
-        height: 0px;
-        padding: 0px;
+
         
-    }
+    /* div.work-card{s
+        width:400px;
+        margin: 14px
+        
+    } */
 
     div.detail{
-        position: relative;
-    width: 33.333333%;
-    margin: 0px 65px 29px 63px;
-    top: 35px; 
+       
+  
+    margin: auto;
+   
+    width: 60%;
+    right: -10px;
     }
 
-    h1.details-title, .details-paragraph {
-       text-align: center;
-       width: 300px;
-    }
+    /* h1.details-title, .details-paragraph {
+         
+       width: 100%;
+    } */
 
-
+/* 
     div.home-card-group{
      right: 10px;
      bottom:20px;
      width:  430px;
-    }
+    } */
   }
 
 
