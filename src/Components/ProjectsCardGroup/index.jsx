@@ -8,7 +8,7 @@ const ProjectsCardGroup = () => {
     <div className="project-card-group">
       <ul className="project-card-ul">
         
-        <li className="project-card">
+        <li className="project-card one">
         <a className="card-link" href="https://github.com/Luisfeliz3/prepair">
           <div className="logo relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <img
@@ -46,7 +46,7 @@ const ProjectsCardGroup = () => {
           </a>
           </a>
         </li>
-        <li className="project-card">
+        <li className="project-card two">
         <a className="card-links" href="https://github.com/Luisfeliz3/paymentcenter">
           <div className="logo relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             
@@ -85,7 +85,7 @@ const ProjectsCardGroup = () => {
           </a>
           </a>
         </li>
-        <li className="project-card">
+        <li className="project-card three">
         <a className="card-links" href="https://github.com/Luisfeliz3/amazon-clone">
           <div className="logo relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <img

@@ -24,8 +24,21 @@
         
     }
 
-    li.project-card:nth-child(2){
+    li.project-card.one{
         
+        top: 76px;
+        right: 46px;
+
+    }
+    li.project-card.two{
+        
+        bottom: 102px;
+        right: 46px;
+
+    }
+    li.project-card.three{
+        bottom: 270px;
+        right: 46px;
     }
 
 
