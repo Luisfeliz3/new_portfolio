@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="home-page-container">
         <Details/>
         {/* <HomeCardGroup/>   */}
-        {/* <WorkCard/> */}
+        <WorkCard/>
     </div>
   )
 }
