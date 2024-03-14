@@ -13,8 +13,8 @@ const AboutDetails = () => {
           software development.
         </h1>
         <p className="about-description">
-          In most of these Projects I am Incorparating the use of M.E.R.N with
-          the MVC (Model, View, Controller) Framework.
+        Dedicated team player with a passion for growth, 
+        knowledge, embracing challenges, and learning opportunities.
         </p>
       </div>
 
