@@ -30,14 +30,23 @@ body{
   
     margin: auto;
    
-    width: 60%;
+    width: 80%;
     right: -10px;
     }
 
-    /* h1.details-title, .details-paragraph {
+    h1.details-title {
          
-       width: 100%;
-    } */
+       position: relative;
+       text-align:center;
+       left: -10px;
+
+    }
+     .details-paragraph {
+         
+        position: relative;
+       text-align:center;
+       left: -10px;
+    } 
 
 /* 
     div.home-card-group{
