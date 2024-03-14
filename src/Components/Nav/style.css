@@ -7,9 +7,9 @@ div.nav-container{
 
 
  div.nav-links{
-    position: absolute;
-    margin : 22px 22px 22px 80px 
-
+ margin:inherit;
+ margin-top: 28px;
+ margin-left: 25px;
     
  }
 
