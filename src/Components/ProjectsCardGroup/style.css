@@ -41,7 +41,10 @@
         right: 46px;
     }
 
-
+    p.project-card-paragraph{
+        margin-top: -2px;
+       
+    }
 
 
 }
