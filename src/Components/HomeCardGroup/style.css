@@ -1,11 +1,12 @@
 @media all and (max-width: 480px){
 
     div.home-card-group{
-        position: absolute;
+        position: relative;
             /* for mobile do not use absolute */
          display: flex;
          right: 0px;
-         bottom: 8px
+         top: 280px;
+
          
         }
 
