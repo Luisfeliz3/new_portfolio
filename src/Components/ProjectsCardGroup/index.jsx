@@ -6,7 +6,7 @@ import "./style.css";
 const ProjectsCardGroup = () => {
   return (
     <div className="project-card-group">
-      <ul>
+      <ul className="project-card-ul">
         
         <li className="project-card">
         <a className="card-link" href="https://github.com/Luisfeliz3/prepair">

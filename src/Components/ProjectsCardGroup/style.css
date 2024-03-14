@@ -1,3 +1,40 @@
+@media all and (max-width: 480px){
+
+   li.project-card{
+         position: relative;
+        
+    transform: scale(0.60); /* Zoom out to 50% of its original size */
+        
+    
+       
+        
+    }
+
+    ul.project-card-ul{
+        
+        flex-direction: column;
+       
+
+        width:100%;
+    }
+
+    div.project-card-group{
+        
+        width: 5rem;
+        
+    }
+
+    li.project-card:nth-child(2){
+        
+    }
+
+
+
+
+}
+
+
+
 .project-card{
     background-color: rgb(237, 237, 237);
     width: 340px; /* 160px 20rem */
