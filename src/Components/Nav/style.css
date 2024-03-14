@@ -1,29 +1,24 @@
 @media all and (max-width: 480px) {
+ 
 
+ div.nav-links{
+    position: absolute;
+    margin : 22px 22px 22px 80px 
 
-div.nav-links{
     
-}
+ }
 
 
-div.portfolio-image-container{
+ img.portfolio_image{
 
-width: 10%;
-
-
-}
-
-
-img.portfolio_image{
-    border: 5px solid #555;
-  border-radius: 50%;  
-  width: 60px;
-  height: 60px;
-  object-fit:initial;
-margin: 5px 5px 3px 30px;
-
+margin: 98px 24px 15px 176px;
    
 }
+  
+ 
+
+
+ 
     
 }
 
