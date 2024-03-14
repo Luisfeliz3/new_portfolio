@@ -15,8 +15,11 @@ div.nav-container{
 
 
  img.portfolio_image{
+position:absolute;
+right: 150px;
+top: 120px;
 
-margin: 98px 24px 15px 176px;
+ 
    
 }
   
