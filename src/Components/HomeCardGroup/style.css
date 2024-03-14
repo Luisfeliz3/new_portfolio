@@ -1,11 +1,33 @@
+@media all and (max-width: 480px){
+
+    div.home-card-group{
+        position: absolute;
+            /* for mobile do not use absolute */
+         display: flex;
+         right: 0px;
+         bottom: 8px
+         
+        }
+
+        img.image{
+            position:relative;
+           object-fit:cover;
+           
+           height :9rem;
+           border-radius: 2.00rem;
+           border: 5px solid #555;
+        }
+
+
+}
+
 
 .home-card-group{
 position: absolute;
     /* for mobile do not use absolute */
  display: flex;
  right: 170px;
- margin-top: 42px;
- margin:-9px
+
  
 }
 .home-card-1{
