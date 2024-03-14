@@ -7,17 +7,19 @@ div.nav-container{
 
 
  div.nav-links{
-    left: 23px;
+    left: 8px;
     top: 34px;
+
+    
     
  }
 
 
  img.portfolio_image{
-position:relative;
-left: 170px;
+position:absolute;
+left: 159px;
     top: 110px;
-
+    
  
    
 }
