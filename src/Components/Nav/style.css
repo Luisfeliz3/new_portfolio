@@ -1,5 +1,10 @@
 @media all and (max-width: 480px) {
  
+div.nav-container{
+    
+ width:50%;
+}
+
 
  div.nav-links{
     position: absolute;
@@ -35,10 +40,7 @@ nav{
 
 }
 
-.nav-container{
-    
- 
-}
+
 
 .nav-links{
     background-color : rgba(255, 255, 255, 0.633);

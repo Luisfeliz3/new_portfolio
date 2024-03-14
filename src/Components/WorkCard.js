@@ -10,8 +10,8 @@ const WorkCard = () => {
     <div>
 
 <div>
-        <div className="work-card mx-auto grid max-w-xl ">
-   <div className=" space-y-10 ">
+        <div className="work-card mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
+   <div className=" space-y-10 lg:pl-16 xl:pl-24">
       <div className=" rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
          <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
             <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" className="h-6 w-6 flex-none">
