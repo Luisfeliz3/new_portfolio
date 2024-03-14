@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="home-page-container">
         <Details/>
-        <HomeCardGroup/>  
+        {/* <HomeCardGroup/>   */}
         <WorkCard/>
     </div>
   )
