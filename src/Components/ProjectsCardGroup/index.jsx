@@ -28,7 +28,7 @@ const ProjectsCardGroup = () => {
           measurements, & build custom pieces like tables, 
           chairs, & more, ensuring you avoid mistakes.
           No more hassles hunting for materials & puzzling intructions to build your unit.
-          Choose what to build, choose materials, insert measurements, click & buy !
+          Choose what to build, choose materials, measurements, click & buy !
           </p>
           <a className="app-links" href="https://github.com/Luisfeliz3/prepair">
             <svg
