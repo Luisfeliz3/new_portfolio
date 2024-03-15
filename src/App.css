@@ -8,6 +8,12 @@ body{
 
 @media all and (max-width: 480px){
 
+
+    img.slim-resume{
+        position: relative;
+      top:10px;
+
+    }
     div.space-y-10{
         margin-top: -15rem;
 
@@ -51,6 +57,13 @@ body{
        left: -10px;
     } 
 
+    iframe{
+        width: 90%;
+        height: 900%;
+    }
+
+  
+
 /* 
     div.home-card-group{
      right: 10px;
@@ -60,6 +73,19 @@ body{
   }
 
 
+
+
+h1.resume-title{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
+}
+
+img.slim-resume{
+
+    margin-bottom: 30px;
+}
 
 
 
