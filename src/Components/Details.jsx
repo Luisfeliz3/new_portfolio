@@ -5,7 +5,7 @@ import { FaGithub,FaLinkedin } from "react-icons/fa";
 const Details = () => {
   return (
     <div className="detail">
-   5
+   s
     <p className='details-paragraph'>
     I'm Luis, holding a Bachelor's in Computer and Technology. 
     My expertise lies in frontend engineering, where I'm dedicated 
