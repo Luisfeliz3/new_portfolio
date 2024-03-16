@@ -8,10 +8,21 @@ body{
 
 @media all and (max-width: 480px){
 
+   
 
+    h1.slim-download{
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        top: 200px;   
+    }
+
+    
+    
     img.slim-resume{
         position: relative;
-      top:10px;
+      top:250px;
 
     }
     div.space-y-10{
@@ -57,9 +68,8 @@ body{
        left: -10px;
     } 
 
-    iframe{
-        width: 90%;
-        height: 900%;
+    iframe, h1.extended-resume{
+       display: none;
     }
 
   
@@ -72,14 +82,19 @@ body{
     } */
   }
 
+   
+
+  .extended-resume{
+   text-align: center;
+
+  }
 
 
-
-h1.resume-title{
+h1.slim-download{
     font-size: 20px;
     text-align: center;
-    padding: 50px;
-    margin-top: 150px;
+    padding: 10px;
+  
 }
 
 img.slim-resume{
@@ -100,6 +115,12 @@ flex : auto;
 
 }
 
+a.resume-download-link:hover{
+
+    
+
+    color:  blue;
+}
 
 .detail{
     position: relative;
