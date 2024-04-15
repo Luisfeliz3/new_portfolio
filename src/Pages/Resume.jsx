@@ -1,5 +1,8 @@
 import React from 'react';
-import resume from '../image/resume.pdf';
+import resume_1 from '../image/resume_1_1.png';
+import resume_2 from '../image/resume_1_2.png';
+import resume_3 from '../image/resume_1_3.png';
+import resume_4 from '../image/resume_1_4.png';
 import slim_resume from '../image/slim_resume.png';
  
 
@@ -8,15 +11,14 @@ const Resume = () => {
     <div>
 
 
+<h1 className='slim-download'><a className='resume-download-link' href="https://drive.google.com/uc?export=download&id=1wzrDy-D8anLih2ZwpZIQVxGV4DHo5Of1">DOWNLOAD RESUME</a></h1>
 
-<h1 className='slim-download'><a className='resume-download-link' href="https://drive.google.com/uc?id=1ufQvJ29uoXruMvsc24--fecJ7qfOMdE8&export=download">DOWNLOAD RESUME BELOW</a></h1>
-<h1 className='slim-download'><a className='resume-download-link' href="https://drive.google.com/uc?id=1YbAkLi3XfedXWGVJC0HTE3tCL2lXt-Bm&export=download">DOWNLOAD EXTENDED RESUME</a></h1>
 
-         <img className="slim-resume" src={slim_resume} alt="slim-resume" />
-         <h1 className="extended-resume">Click on download link for extended resume〰️〰️⤵️</h1>
-         <iframe 
-         src={resume} width="100%" height="2000px" title = 'resume'>
-        </iframe>
+         <img className="resume one" src={resume_1} alt="slim-resume" />
+         <img className="resume two" src={resume_2} alt="slim-resume" />
+         <img className="resume three" src={resume_3} alt="slim-resume" />
+         <img className="resume four" src={resume_4} alt="slim-resume" />
+      
 
     </div>
   )

@@ -97,11 +97,31 @@ h1.slim-download{
   
 }
 
-img.slim-resume{
-
-    margin-bottom: 30px;
+img.resume{
+    position: relative;
+    margin :  auto;
 }
 
+img.resume.one{
+    position: relative;
+    width: 750px;
+
+}
+img.resume.two{
+    position: relative;
+    width: 750px;
+
+}
+img.resume.three{
+    position: relative;
+    width: 750px;
+
+}
+img.resume.four{
+    position: relative;
+    width: 750px;
+
+}
 
 
 .container {
