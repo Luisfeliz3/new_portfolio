@@ -105,21 +105,29 @@ img.resume{
 img.resume.one{
     position: relative;
     width: 750px;
+    top: 110px;
+
 
 }
 img.resume.two{
     position: relative;
     width: 750px;
+    top: 93px;
+
 
 }
 img.resume.three{
     position: relative;
     width: 750px;
+    top: 65px;
+
 
 }
 img.resume.four{
     position: relative;
     width: 750px;
+    top: 43px;
+
 
 }
 
