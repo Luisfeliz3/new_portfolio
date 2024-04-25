@@ -13,7 +13,6 @@
         img.image{
             position:relative;
            object-fit:cover;
-           
            height :9rem;
            border-radius: 2.00rem;
            border: 5px solid #555;
