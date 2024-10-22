@@ -1,4 +1,5 @@
 import amex_icon from "../image/amex.png";
+import interMedia_icon from "../image/intermediagrp_logo.jpeg";
 import cigniti_icon from "../image/cigniti.png";
 import columbia_icon from "../image/cumbia.jpeg";
 import devry_icon from "../image/devry_uni.jpeg";
@@ -21,15 +22,26 @@ const WorkCard = () => {
             <span className="ml-3 text-zinc-900">Work</span>
          </h2>
          <ol className="mt-6 space-y-4">
+         <li className="flex gap-4">
+               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={interMedia_icon} width="400" height="400" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
+               <dl className="flex flex-auto flex-wrap gap-x-2">
+                  <dt className="sr-only">Company</dt>
+                  <dd className="w-full flex-none text-sm font-medium text-zinc-900">Intermedia Group Inc.</dd>
+                  <dt className="sr-only">Role</dt>
+                  <dd className="text-xs text-zinc-500 dark:text-zinc-400">Software &amp; Test Engineer</dd>
+                  <dt className="sr-only">Date</dt>
+                  <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="Oct 2017 until Nov 2021"><time datetime="Oct 2017">Oct 2021</time> <span aria-hidden="true">—</span> <time datetime="Nov 2021">Present</time></dd>
+               </dl>
+            </li>
             <li className="flex gap-4">
                <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"><img alt="" src={amex_icon} width="400" height="400" decoding="async" data-nimg="future" className="h-7 w-7 rounded-full tranparente" loading="lazy" /></div>
                <dl className="flex flex-auto flex-wrap gap-x-2">
                   <dt className="sr-only">Company</dt>
                   <dd className="w-full flex-none text-sm font-medium text-zinc-900">Amex</dd>
                   <dt className="sr-only">Role</dt>
-                  <dd className="text-xs text-zinc-500 dark:text-zinc-400">Software Engineering</dd>
+                  <dd className="text-xs text-zinc-500 dark:text-zinc-400">Software &amp; Test Engineer</dd>
                   <dt className="sr-only">Date</dt>
-                  <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="Oct 2017 until Nov 2021"><time datetime="Oct 2017">Oct 2017</time> <span aria-hidden="true">—</span> <time datetime="Nov 2021">Nov 2021</time></dd>
+                  <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500" aria-label="Oct 2017 until Nov 2021"><time datetime="Oct 2017">Oct 2017</time> <span aria-hidden="true">—</span> <time datetime="Nov 2021">Oct 2021</time></dd>
                </dl>
             </li>
             <li className="flex gap-4">

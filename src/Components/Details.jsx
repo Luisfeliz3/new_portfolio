@@ -9,7 +9,7 @@ const Details = () => {
     I'm Luis, holding a Bachelor's in Computer and Technology. 
     My expertise lies in frontend engineering, where I'm dedicated 
     to empowering communities and expressing creativity through 
-    music and software development.
+    software development.
     </p>
     <div className="sm-icons">
     <a className="gh-icon" href='https://github.com/Luisfeliz3' ><FaGithub /></a>

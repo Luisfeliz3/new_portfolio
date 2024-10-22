@@ -9,7 +9,7 @@ const AboutDetails = () => {
         <h1 className="about-title">
           I'm Luis, holding a Bachelor's in Computer and Technology. My
           expertise lies in Fullstack engineering, where I'm dedicated to
-          empowering communities and expressing creativity through music and
+          empowering communities and expressing creativity through
           software development.
         </h1>
         <p className="about-description">
